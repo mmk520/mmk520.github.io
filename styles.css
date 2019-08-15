@@ -202,7 +202,7 @@ button:active:nth-child(20){
 }
 
 
-@media (max-width: 600px) {
+@media (min-width: 600px) {
     *{
         margin: 0;
         padding: 0;
