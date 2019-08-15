@@ -104,6 +104,7 @@ button:active:nth-child(20){
 }
 body{
     background-color: darkslategrey;
+    height:600px;
    
 }
 input{
