@@ -96,7 +96,7 @@ button:active:nth-child(20){
 
 
 /* Responsive */
-@media (max-width: 480px)  and (min-width:600px) {
+@media (max-width: 480px) {
 *{
     margin: 0;
     padding: 0;
@@ -199,4 +199,110 @@ button:active:nth-child(20){
     font-size: 13px;
 }
 
+}
+
+
+@media (max-width: 600px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        background-color: darkslategrey;
+        height: 100%;   
+    }
+    p{
+        display: block;
+        text-overflow: ellipsis;
+        text-align: center;
+        line-height: 20px;
+        text-size-adjust:auto;
+    }
+    
+    #calc{
+        height: 510px;
+        width: 300px;
+        background-color: rgb(201, 194, 194);
+        border-radius: .25rem;
+     
+    }
+    
+    #resultCal{
+        height: 80px;
+        background-color: pink;
+    }
+    #historyCal{
+        text-align: center;
+        height: 30px;
+        margin: 0 5px;
+        font-size: 10px;
+    }
+    #outputCal{
+        text-align: center;
+        height: 60px;
+        margin: 5px 5px;
+        font-size: 20px;
+        text-overflow: ellipsis;
+        word-wrap: normal;
+        white-space: nowrap;
+    }
+    .keysCal{
+        height: 100%;
+    }
+    
+    button{
+        float: left;
+        border-radius: 50%;
+        border: 0;
+        height: 40px;
+        width: 40px;
+        margin: 15px;
+        font-size: 20px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    button:active{
+        font-size: 10px;
+    }
+    button:focus{
+        outline: 0;
+    }
+    #empty{
+        background-color: rgb(201, 194, 194);
+    }
+    button:nth-child(4){
+        background-color: red;
+        font-size: 20px;
+    }
+    button:nth-child(8){
+        background-color: rgb(35, 214, 131);
+        font-size: 20px;
+    }
+    button:nth-child(12){
+        background-color: rgb(50, 62, 230);
+        font-size: 20px;
+    }
+    button:nth-child(16){
+        background-color: rgb(67, 230, 67);
+        font-size: 20px;
+    }button:nth-child(20){
+        background-color: rgb(224, 36, 184);
+        font-size: 20px;
+    }
+    button:active:nth-child(4){
+        font-size: 13px;
+    }
+    button:active:nth-child(8){
+        font-size: 13px;
+    }
+    button:active:nth-child(12){
+        font-size: 13px;
+    }
+    button:active:nth-child(16){
+        font-size: 13px;
+    }
+    button:active:nth-child(20){
+        font-size: 13px;
+    }
+    
 }
