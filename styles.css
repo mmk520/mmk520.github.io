@@ -107,6 +107,7 @@ body{
 }
 input{
     text-overflow: ellipsis;
+    text-align: justify;
 }
 
 #calc{
