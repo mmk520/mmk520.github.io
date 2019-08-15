@@ -105,11 +105,12 @@ body{
     background-color: darkslategrey;
     height: 100%;   
 }
-input{
+p{
+    display: block;
     text-overflow: ellipsis;
-    text-align: justify;
-    word-wrap: normal;
-    white-space: nowrap;
+    text-align: center;
+    line-height: 20px;
+    text-size-adjust:auto;
 }
 
 #calc{
