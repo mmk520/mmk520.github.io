@@ -104,7 +104,10 @@ button:active:nth-child(20){
     padding: 0;
     margin: 0;
 }
-
+body{
+    background-color: black;
+   
+}
     
 button:active{
     font-size: 13px;
