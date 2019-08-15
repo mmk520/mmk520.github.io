@@ -96,7 +96,7 @@ button:active:nth-child(20){
 
 
 /* Responsive */
-@media (max-width: 480px) {
+@media (max-width: 480px)  and (min-width:600px) {
 *{
     margin: 0;
     padding: 0;
