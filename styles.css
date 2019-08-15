@@ -108,6 +108,8 @@ body{
 input{
     text-overflow: ellipsis;
     text-align: justify;
+    word-wrap: normal;
+    white-space: nowrap;
 }
 
 #calc{
@@ -117,21 +119,25 @@ input{
     border-radius: .25rem;
  
 }
+
 #resultCal{
     height: 120px;
     background-color: pink;
 }
 #historyCal{
-    text-align: right;
+    text-align: center;
     height: 30px;
     margin: 0 5px;
     font-size: 10px;
 }
 #outputCal{
-    text-align: right;
+    text-align: center;
     height: 60px;
     margin: 5px 5px;
     font-size: 20px;
+    text-overflow: ellipsis;
+    word-wrap: normal;
+    white-space: nowrap;
 }
 .keysCal{
     height: 100%;
