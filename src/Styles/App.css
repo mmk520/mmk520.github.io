@@ -1,0 +1,9 @@
+.skills {
+  -webkit-clip-path: ellipse(150% 50%);
+  clip-path: ellipse(150% 50%);
+}
+
+.contact {
+  -webkit-clip-path: polygon(50% 5%, 100% 0, 100% 100%, 50% 100%, 0 100%, 0 0);
+  clip-path: polygon(50% 5%, 100% 0, 100% 100%, 50% 100%, 0 100%, 0 0);
+}

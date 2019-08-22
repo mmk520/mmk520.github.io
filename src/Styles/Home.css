@@ -1,0 +1,89 @@
+.homeEle {
+  color: white;
+  background: #1b242f;
+  height: 100%;
+  padding: 0 10px;
+}
+
+.homeEle .particleCanv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100%;
+}
+
+
+
+/* -------------------------------------------------------------------------- */
+/* Typewriter */
+
+/* -------------------------------------------------------------------------- */
+/* homebutton */
+/* -------------------------------------------------------------------------- */
+
+
+
+
+
+/* -------------------------------------------------------------------------- */
+
+@-webkit-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes colorRend {
+  0% {
+    color: #e95555;
+  }
+  25% {
+    color: #ec8585;
+  }
+  50% {
+    color: #ebb3b3;
+  }
+  75% {
+    color: #ec8585;
+  }
+  100% {
+    color: #e95555;
+  }
+}
+@keyframes colorRend {
+  0% {
+    color: #e95555;
+  }
+  25% {
+    color: #ec8585;
+  }
+  50% {
+    color: #ebb3b3;
+  }
+  75% {
+    color: #ec8585;
+  }
+  100% {
+    color: #e95555;
+  }
+}
+
+
